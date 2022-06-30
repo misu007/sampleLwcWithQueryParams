@@ -9,8 +9,8 @@ Includes 1 Lightning Web Component called "Sample LWC with query param"
 git clone https://github.com/misu007/sampleLwcWithQueryParams.git
 cd sampleLwcWithQueryParams/
 sfdx force:org:create -a lwcWithQueryParamsTest -s -f config/project-scratch-def.json
-sfdx force:org:open -u lwcWithQueryParamsTest
 sfdx force:source:push
+sfdx force:org:open -u lwcWithQueryParamsTest
 ```
 
 
