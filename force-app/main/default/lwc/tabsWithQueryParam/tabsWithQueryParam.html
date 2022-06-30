@@ -1,0 +1,15 @@
+<template>
+    <lightning-card>
+        <lightning-tabset active-tab-value={activeTabValue}>
+            <lightning-tab label="Tab #1" value="tab1" onactive={onTabActive}>
+                <div class="slds-p-horizontal_small">Tab 1 Contents</div>
+            </lightning-tab>
+            <lightning-tab label="Tab #2" value="tab2" onactive={onTabActive}>
+                <div class="slds-p-horizontal_small">Hello. Here is Tab 2 Contents.</div>
+            </lightning-tab>
+            <lightning-tab label="Tab #3" value="tab3" onactive={onTabActive}>
+                <div class="slds-p-horizontal_small">Tab3 Contents</div>
+            </lightning-tab>
+        </lightning-tabset>
+    </lightning-card>
+</template>
